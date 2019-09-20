@@ -1,0 +1,11 @@
+1) Tidak pernah, karena pada HTML tidak memedulikan kesalahan. yang mana jika kita salah atau kurang syntax maka HTML tetap run tetapi pada syntax yang salah tidakterbaca diHTML.
+
+2) saat pertama di run yang dijalankan adalah hasil kodingannya, namun setelah 5 detik dia akan otomatis ke alamat google.com jika ada koneksi internet
+
+3) thead : thead menunjukkan sebuah table head atau bagian kepala sebuah tabel (table element). digunakan untuk mengelompokkan konten yang terletak di kepala (atas) sebuah tabel. 
+	Di dalam element <thead> tersebut, harus ditulis element <tr> yang menunjukkan table row atau baris sebuah table.
+tbody : tbody menunjukkan sebuah table body (bodi tabel) atau bagian pokok isi sebuah tabel. digunakan untuk mengelompokkan konten yang terletak pada bagian tubuh table itu sendiri. 
+	Di dalam element <tbody> tersebut, harus ditulis element <tr> yang menunjukkan table row atau baris sebuah table.
+tr    : kepanjangan dari table row, digunakan untuk mendefiniskan baris p
+th    : kepanjangan dari table heading, digunakan untuk membuat judul sebuah table seperti No, dan nama. biasanya di tanda dengan hurufnya menjadi bold seperti contoh table di atas.
+td    : kepanjangan dari table data, digunakan untuk membuat isi dari th atau baris atau kalau di MS.excel seperti cell.
