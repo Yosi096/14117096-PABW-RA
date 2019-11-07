@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+    <title>Daftar Mahasiswa</title>
+</HEAD>
+<body>
+    <br>***********************************************************************
+    <h3>ADD DATA</h3>
+    <form action="adddata.php" method="POST">
+        NRP :<input type="text" name="nrp" size="11" maxlength="40"><br>
+        Nama :<input type="text" name="nama" size="20" maxlength="40"><br>
+        Alamat:<textarea name="alamat" rows="3" cols="30"></textarea><br>
+        Foto :<input type="file" name="gambar"><br>
+        Jurusan :
+        <select name="id_jur">
+            <option value="TL">Telekomunikasi</option>
+            <option value="IF">Teknik Informatika</option>
+            <option value="MA">Matematika</option>
+            <option value="FI">Fisika</option>
+            <option value="SI">Teknik Sipil</option>
+            <option value="EL">Teknik Elektro</option>
+            <option value="SA"></option>
+        </select><br><br>
+        <input type="submit" value="Tambah">
+        <input type="reset" value="Reset">
+        <br>***********************************************************************
+    </form>
+    <br><br>
+    <br>***********************************************************************
+    <h3>SEARCH DATA</h3>
+    <form action="caridata.php" method="GET">
+        Nama :<input type="text" name="nama" size="15" maxlength="40">
+        <input type="submit" name="search" value="Search">
+        <br>***********************************************************************
+    </form>
+    <br><br>
+    <br>***********************************************************************
+    <h3>DELETE DATA</h3>
+    <form action="deletedata.php" method="POST">
+        NRP :<input type="text" name="nrp" size="11" maxlength="40">
+        <input type="submit" name="hapus" value="Delete">
+        <br>***********************************************************************<br>
+    </form>
+</body>
+</HTML>
